@@ -1,0 +1,26 @@
+.sticky section{
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+    position: sticky;
+}
+section>h1{
+   color: red;
+   height: 50px;
+   width: 100%;
+   background-color: black;
+   padding: 10px;
+   text-align: center;
+   /* position: sticky; */
+   position: sticky;
+   top: 0px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .sticky{
+    position: relative;
+} */
